@@ -1,0 +1,64 @@
+.body {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 70px 1fr 1fr 1fr 100px;
+    gap: 10px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .header {
+    grid-row: 1 / 2;
+    grid-column: 1 / 5;
+    background-color: rgb(134, 240, 240);
+  }
+  .info{
+    background-color: rgb(162, 247, 218);
+    grid-row: 2 / 5;
+    grid-column: 1 / 4;
+  }
+  .aside {
+    grid-row: 2 / 5;
+    grid-column: 4 / 5;
+    background-color: rgb(200, 149, 247);
+  }
+  .title {
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+    background-color: rgb(146, 146, 231);
+  }
+  .about {
+    grid-row: 3 / 4;
+    grid-column: 3 / 4;
+    background-color: rgb(146, 146, 231);
+  }
+  .history{
+    grid-row: 4 / 5;
+    grid-column: 1 / 4;
+    background-color: rgb(146, 146, 231);
+  }
+  .footer {
+    grid-row: 5 / 6;
+    grid-column: 1 / 5;
+    background-color: rgb(224, 209, 192);
+  }
+  .address{
+    grid-row: 5 / 6;
+    grid-column: 1 / 2;
+    background-color: rgb(235, 160, 222);
+  }
+  .soc{
+    grid-row: 5 / 6;
+    grid-column: 2 / 3;
+    background-color: rgb(235, 160, 222);
+  }
+  .work{
+    grid-row: 5 / 6;
+    grid-column: 3 / 4;
+    background-color: rgb(235, 160, 222);
+  }
+  .contact{
+    grid-row: 5 / 6;
+    grid-column: 4 / 5;
+    background-color: rgb(235, 160, 222);
+  }
